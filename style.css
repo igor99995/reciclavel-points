@@ -19,6 +19,21 @@ header {
     justify-content: space-between;
     font-size: 1.8rem;
     border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+main {
+    margin-top: 160px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.main-text {
+    display: inline-block;
 }
 
 .logo {
