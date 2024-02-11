@@ -1,0 +1,42 @@
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+ol, ul {
+    list-style: none;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 0;
+    border-left: 1px solid black;
+}
+
+.top-bar li {
+    margin: 1.3rem
+}
