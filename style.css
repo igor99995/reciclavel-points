@@ -32,14 +32,18 @@ header {
 
 main {
     margin-top: 160px;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
 }
 
 .main-text {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 2rem 0;
 }
+
+.main-text h1 {
+    font-size: 3rem
+}
+
 
 .logo {
     margin: 1rem;
